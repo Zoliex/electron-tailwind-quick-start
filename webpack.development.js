@@ -7,6 +7,8 @@ module.exports = merge(base, {
     mode: "development",
     devServer: {
         host: "localhost",
-        port: "40992"
+        port: "40992",
+        hot: false,
+        liveReload: true
     }
 });
